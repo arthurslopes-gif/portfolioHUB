@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  tasktracker:
+    build: .
+    container_name: tasktracker_app
+    stdin_open: true  # Mantém o fluxo de entrada aberto para o input()
+    tty: true         # Aloca um terminal virtual interativo

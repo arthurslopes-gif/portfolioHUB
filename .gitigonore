@@ -1,0 +1,19 @@
+# Python - Arquivos de cache e compilação
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+
+# Ambiente Virtual (caso crie algum no futuro)
+venv/
+env/
+.venv/
+
+# Sistema Operacional (Windows / macOS)
+Thumbs.db
+ehthumbs.db
+.DS_Store
+desktop.ini
+
+# Configurações do Editor (VS Code)
+.vscode/
